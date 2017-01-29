@@ -1,0 +1,94 @@
+.container-fluid{
+  background-color: #000;
+  font-family: 'Eczar', serif;
+}
+
+.button{
+  border-radius: 10px;
+  color: #FFF;
+  background-color: #555;
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu{
+  display: inline;
+  color: #000;
+}
+
+.readText>p{
+  padding-top: 2%;
+  padding-left:5%;
+}
+
+.back {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  overflow: hidden;
+  top:0;
+  left: 0;
+  background-color: #123456;
+  color: #900;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 2px solid #111;
+  border-bottom-right-radius:  30px;
+  border-bottom-left-radius:  30px;
+  position: fixed;
+  z-index: 1;
+
+  width: 100%
+
+}
+
+.readText {
+  height: 200px;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.8;
+  color: #eee;
+  left: 0px;
+  position: absolute;
+}
+
+.footer{
+  text-align: right;
+  height: 20px;
+  color: #FFF;
+  background-color: #000;
+  padding: 0px;
+  padding-right: : 10px;
+  margin: 0px;
+  font-size: 10px;
+}
+
+#back1{
+  background-image: url("pic/bg1.jpg");
+}
+
+#back2{
+  background-image: url("pic/bg2.jpg");
+}
+
+#back3{
+  background-image: url("pic/bg3.jpg");
+}
+
+#back4{
+  background-image: url("pic/bg4.jpg");
+}
+
+#back5{
+  background-image: url("pic/bg6.jpg");
+  height: 670px;
+}
+
+#starter{
+  height: 22%
+}
