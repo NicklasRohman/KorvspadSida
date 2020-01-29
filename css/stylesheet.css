@@ -1,4 +1,19 @@
-/*.container-fluid {
+.redtext {
+    color: rgba(250,0,0,0.9) !important;
+}
+
+.contactTable {
+    border-collapse: collapse;
+    border: 1px solid blueviolet;
+}
+
+.text {
+    color: antiquewhite;
+}
+
+
+
+.container-fluid {
     background-color: #000;
     font-family: 'Eczar', serif;
 }
@@ -9,11 +24,6 @@
     background-color: #555;
     padding: 10px;
     margin: 10px;
-}
-
-.menu {
-    display: inline;
-    color: #000;
 }
 
 .readText > p {
@@ -29,25 +39,9 @@
     background-size: cover;
 }
 
-.header {
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background-color: #123456;
-    color: #900;
-    text-align: center;
-    padding: 5px;
-    border-bottom: 2px solid #111;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    position: fixed;
-    z-index: 1;
-    width: 100%
-}
-
 .readText {
     height: 200px;
-    width: 100%;
+    width: 80%;
     background-color: #009;
     opacity: 0.8;
     color: #eee;
@@ -59,22 +53,20 @@
     text-align: right;
     height: 20px;
     color: #FFF;
-    background-color: #090;
+    background-color: black;
     font-size: 10px;
 }
 
-.sidediv {
-    height: 100%;
-    width: 10%;
-    background-color: red;
-}
-
-.maindiv {
+.main-div {
     height: 100%;
     width: 80%;
     background-color: black;
 }
-*/
+
+.side-div {
+    background-color: #222222;
+}
+
 .red {
     background-color: red;
 }
@@ -87,13 +79,8 @@
     background-color: blue;
 }
 
-.yellow {
-    background-color: yellow;
-    width: 100%;
-    min-height: 20%;
-}
 
-/*
+
 
 #back1 {
     background-image: url("pic/bg1.jpg");
@@ -116,7 +103,4 @@
     height: 670px;
 }
 
-#starter {
-    height: 22%;
-}
-*/
+
