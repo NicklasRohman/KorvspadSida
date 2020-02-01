@@ -31,8 +31,8 @@
 
 .readText {
     height: 200px;
-    width: 80%;
-    background-color: #009;
+    width: 100%;
+    background-color: #000;
     opacity: 0.8;
     color: #eee;
     left: 0;
@@ -49,7 +49,7 @@
 
 .main-div {
     height: 100%;
-    width: 80%;
+/*    width: 80%;*/
     background-color: black;
 }
 
